@@ -4,6 +4,10 @@ const projectsSchema = new mongoose.Schema({
     projectName:{
         type: String,
         required : true,
+    },
+    progress:{
+        type: number,
+        required : true
     }
 }) 
 
